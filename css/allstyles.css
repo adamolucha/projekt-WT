@@ -1,6 +1,7 @@
 :root {
-    --primary-color: #097772;
-    --secondary-color: #555555;
+    --primary-color: #25dbd2;
+    --secondary-color: #aaa9a9;
+    --tertiary-color: #000000;
     --font-size-body: 16px;
     --font-size-head: 25px;
 }
@@ -44,11 +45,12 @@ p {
     font-size: var(--font-size-body);
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 h1 {
     font-size: var(--font-size-head);
-    font-weight: bold;
+
 }
 
 .buttons {
@@ -65,9 +67,9 @@ h1 {
 .hero-container {
     justify-content: flex-end;
     display: flex;
-    background: url("/img/photo-1604147706283-d7119b5b822c.webp");
+    background: url("/img/laptop.webp");
     background-size: cover;
-    padding: 150px;
+    padding: 500px;
 }
 
 .text-center {
@@ -157,4 +159,7 @@ h1 {
 }
 .flex-end{
     justify-content: end;
+}
+.padding-secondary {
+    padding-left: 150px;
 }
