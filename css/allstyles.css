@@ -1,0 +1,152 @@
+:root {
+    --primary-color: #097772;
+    --secondary-color: #555555;
+    --font-size-body: 16px;
+    --font-size-head: 25px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+#navBar li {
+    padding-left: 10px;
+}
+
+#navBar li.active {
+    color: var(--primary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    position: static;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+section {
+    padding-inline: 15%;
+    padding-block: 40px;
+}
+
+p {
+    font-size: var(--font-size-body);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: var(--font-size-head);
+    font-weight: bold;
+}
+
+.buttons {
+    background: var(--primary-color);
+    padding: 10px 25px 9px 25px;
+    color: white;
+    border: 0;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-container {
+    justify-content: flex-end;
+    display: flex;
+    background: url("/img/photo-1604147706283-d7119b5b822c.webp");
+    background-size: cover;
+    padding: 150px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+p,
+h1 {
+    text-align: inherit;
+}
+
+.section-center {
+    padding-inline: 20%;
+}
+
+.professional-skills {
+    width: 50%;
+}
+
+.div-size {
+    height: 5px;
+    width: 100%;
+    display: inline-block;
+    background: var(--secondary-color);
+}
+
+.w75 {
+    height: inherit;
+    width: 75%;
+    background: var(--primary-color);
+}
+
+.w90 {
+    height: inherit;
+    width: 90%;
+    background: var(--primary-color);
+}
+
+.w65 {
+    height: inherit;
+    width: 65%;
+    background: var(--primary-color);
+}
+
+.professional-skills-background {
+    background: url(/img/photo-1604147706283-d7119b5b822c.webp);
+}
+
+.flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.padding {
+    padding-left: 20px;
+}
+
+.bg-primary {
+    background: var(--primary-color);
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.img-containers{
+    flex: 25%
+}
+
+.img-containers > img {
+    width: 100%;
+}
+.background-secondary{
+    background: var(--secondary-color);
+}
+.input-wd50{
+    width: 50%;
+}
+.input-wd100{
+    width: 100%;
+}
