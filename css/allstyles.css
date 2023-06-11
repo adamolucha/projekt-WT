@@ -131,22 +131,30 @@ h1 {
 .bg-primary {
     background: var(--primary-color);
 }
-.wrap{
+
+.wrap {
     flex-wrap: wrap;
 }
-.img-containers{
+
+.img-containers {
     flex: 25%
 }
 
-.img-containers > img {
+.img-containers>img {
     width: 100%;
 }
-.background-secondary{
+
+.background-secondary {
     background: var(--secondary-color);
 }
-.input-wd50{
+
+.input-wd50 {
     width: 50%;
 }
-.input-wd100{
+
+.input-wd100 {
     width: 100%;
+}
+.flex-end{
+    justify-content: end;
 }
